@@ -10,6 +10,8 @@ body {
 
 header .max-content-default {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header {
@@ -22,6 +24,11 @@ header .header-img h1 img {
   text-align: left;
 }
 
+header .menu .menu-list-item {
+  display: inline-block;
+  margin: 0 20px;
+}
+
 header .menu .menu-link {
   color: #fff;
   text-transform: uppercase;
@@ -30,7 +37,45 @@ header .menu .menu-link {
   font-weight: 400;
   letter-spacing: 1px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0 50px;
+}
+
+header .menu .menu-link:hover {
+  color: #fc9e56;
+  transition: 0.4s;
+}
+
+header .form form {
+  display: flex;
+  align-items: center;
+}
+
+header .form input {
+  padding-left: 20px;
+  text-align: start;
+  border: 2px solid #025043;
+  border-radius: 50px;
+  width: 220px;
+  height: 50px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+header .form .btn-form {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  background-color: #025043;
+}
+
+header .form .btn-form:hover {
+  background-color: #fc9e56;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+header .form .material-symbols-outlined {
+  color: #f1f1f1;
+  cursor: pointer;
 }
 
 /* #main {
