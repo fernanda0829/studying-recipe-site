@@ -21,10 +21,10 @@ header {
   padding: 50px 30px;
 }
 
-/* aqui entra no que eu adicionei no html sobre o h1, ce ta adicionando um h1 só por adicionar, sem proposito nenhum nessa imagem */
-header .header-img h1 img {
+header .header-img a img {
   width: 150px;
   text-align: left;
+  cursor: pointer;
 }
 
 header .menu .menu-list-item {
@@ -48,12 +48,12 @@ header .menu .menu-link:hover {
   transition: 0.4s;
 }
 
-header .form form {
+header .search fieldset {
   display: flex;
   align-items: center;
 }
 
-header .form input {
+header .search input {
   padding-left: 20px;
   text-align: start;
   border: 2px solid #008973;
@@ -64,36 +64,34 @@ header .form input {
   margin-right: 5px;
 }
 
-header .form .btn-form {
+header .search .btn-form {
   border-radius: 50px;
   width: 40px;
   height: 40px;
   background-color: #008973;
 }
 
-header .form .btn-form:hover {
+header .search .btn-form:hover {
   background-color: #012821;
   cursor: pointer;
   transition: 0.4s;
 }
 
-/* Se tu ja está adicionando o cursor pointer no botao, nao tem por que adicionar no icone q esta dentro dele também. */
-header .form .material-symbols-outlined {
+header .search .material-symbols-outlined {
   color: #f1f1f1;
-  cursor: pointer;
 }
 
 main .content-introduction {
   margin: 50px 0;
 }
 
-main .content-introduction h2 {
+main .content-introduction h1 {
   color: #025043;
   font-size: 34px;
   line-height: 42px;
   font-weight: 600;
   text-transform: uppercase;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 main .content-introduction-img img {
@@ -102,7 +100,7 @@ main .content-introduction-img img {
   border-radius: 20px;
 }
 
-main .content-main h3 {
+main .content-main h2 {
   font-size: 24px;
   line-height: 32px;
   font-weight: 600;
@@ -117,28 +115,26 @@ main .content-main h3 {
   border-radius: 60px;
 }
 
-main .content-main h4 {
+main .content-main h3 {
   font-size: 18px;
   line-height: 28px;
   font-weight: 600;
   text-transform: uppercase;
   color: #025043;
-  margin-top: 30px;
+  margin-top: 25px;
+  margin-left: 25px;
 }
 
 /* a fonte padrao ja é 16px, nao tem neccessidade de colocar, só se quiser. */
 /* a fonte weight padrao ja é 400 (normalmente), nao tem neccessidade de colocar, só se quiser. */
-/* o padrao da lista UL ja é style circle, se n±ao removeu o estilo no reset, nao tem por que adicionar aqui.  */
 main .content-main-list {
   font-size: 16px;
   line-height: 28px;
   font-weight: 400;
   color: #111;
   margin-left: 25px;
-  list-style-type: style circle;
 }
 
-/* o padrao da lista OL ja é decimal, se n±ao removeu o estilo no reset, nao tem por que adicionar aqui.  */
 /* a fonte weight padrao ja é 400 (normalmente), nao tem neccessidade de colocar, só se quiser. */
 main .content-main-list-ol {
   font-size: 16px;
@@ -146,14 +142,14 @@ main .content-main-list-ol {
   font-weight: 400;
   color: #111;
   margin-left: 25px;
-  list-style-type: decimal;
+  margin-top: 25px;
 }
 
 main .content-main-final {
   margin-bottom: 50px;
 }
 
-main .content-main-final h3 {
+main .content-main-final h2 {
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;

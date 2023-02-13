@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <!-- Cabeçalho vi q seguiu o que te indiquei antes, bem :D -->
+  <!--Thank's-->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,15 +15,14 @@
     <link rel="stylesheet" href="assents/css/style.css" />
   </head>
   <!-- Layout ficou bom, mas está mal diagramado (margens incoerentes, umas maiores e outras menores nas mesmas situaçoes) -->
-  <!-- Vi que na pasta SVG tem uns pngs, png nao é svg -->
   <body>
     <header>
       <div class="max-content-default">
         <div class="header-img">
           <!-- uma imagem nao é um H1, isso nao faz sentido -->
-          <h1>
+          <a href="">
             <img src="assents/svg/LaNonna.svg" alt="Logo do site La Nonna" />
-          </h1>
+          </a>
         </div>
         <nav class="menu">
           <ul class="menu-list">
@@ -37,32 +37,29 @@
             </li>
           </ul>
         </nav>
-        <!-- acredito que o fieldset deveria envolver só o input, mas nao tenho certeza. tem q dar uma olhada na documentaçao para esse caso. -->
-        <fieldset class="form">
-          <form action="">
+        <form action="" class="search">
+          <fieldset>
             <input type="search" placeholder="Encontre uma receita..." />
             <button type="submit" class="btn-form">
               <span class="material-symbols-outlined"> search </span>
             </button>
-          </form>
-        </fieldset>
+          </fieldset>
+        </form>
       </div>
     </header>
-    <main>
-      <!-- Aqui se todo o conteudo tem o mesmo "max-content-default" tu poderia adicionar essa classe no main, ou uma div q englobe todo o conteudo dentro do main com essa classe, nao tem o por que repetir ela toda seçao -->
-      <section class="max-content-default">
+    <main class="max-content-default">
+      <section>
         <div class="content-introduction">
-          <h2>Bolo de cenoura</h2>
+          <h1>Bolo de cenoura</h1>
           <div class="content-introduction-img">
             <img src="assents/img/bolo-de-cenoura.jpg" alt="" />
           </div>
         </div>
       </section>
-      <!-- Aqui se todo o conteudo tem o mesmo "max-content-default" tu poderia adicionar essa classe no main, ou uma div q englobe todo o conteudo dentro do main com essa classe, nao tem o por que repetir ela toda seçao -->
-      <section class="max-content-default">
+      <section>
         <div class="content-main">
-          <h3>Ingredientes</h3>
-          <h4>Massa</h4>
+          <h2>Ingredientes</h2>
+          <h3>Massa</h3>
           <ul class="content-main-list">
             <li>3 cenouras grandes cortadas em pedaços</li>
             <li>2 xícaras de açúcar</li>
@@ -73,7 +70,7 @@
           </ul>
         </div>
         <div class="content-main">
-          <h4>Cobertura</h4>
+          <h3>Cobertura</h3>
           <ul class="content-main-list">
             <li>1 lata de leite condensado</li>
             <li>3 colheres de nescau ou chocolate em pó</li>
@@ -81,7 +78,7 @@
           </ul>
         </div>
         <div class="content-main">
-          <h3>Modo de preparo</h3>
+          <h2>Modo de preparo</h2>
           <ol class="content-main-list-ol">
             <li>
               Bata no liquidificador as cenouras, o açúcar, o óleo e os ovos.
@@ -99,10 +96,9 @@
           </ol>
         </div>
       </section>
-      <!-- Aqui se todo o conteudo tem o mesmo "max-content-default" tu poderia adicionar essa classe no main, ou uma div q englobe todo o conteudo dentro do main com essa classe, nao tem o por que repetir ela toda seçao -->
-      <section class="max-content-default">
+      <section>
         <div class="content-main-final">
-          <h3>Que tal conferir outras receitas de bolo na La Nonna?</h3>
+          <h2>Que tal conferir outras receitas de bolo na La Nonna?</h2>
           <p>
             Além da receita de bolo de cenoura com cobertura de chocolate, na La
             Nonna você encontra muitas outras deliciosas receitas de bolo.
@@ -120,7 +116,7 @@
     <footer>
       <div class="max-content-default">
         <div class="content-footer-img">
-          <img src="assents/svg/logo.png" alt="logo Cronos Share" />
+          <img src="assents/png/logo.png" alt="logo Cronos Share" />
         </div>
         <p>Todos os direitos reservados - 2023</p>
       </div>
