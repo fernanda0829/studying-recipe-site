@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <!-- Cabeçalho vi q seguiu o que te indiquei antes, bem :D -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,10 +13,13 @@
     <link rel="stylesheet" href="assents/css/reset.css" />
     <link rel="stylesheet" href="assents/css/style.css" />
   </head>
+  <!-- Layout ficou bom, mas está mal diagramado (margens incoerentes, umas maiores e outras menores nas mesmas situaçoes) -->
+  <!-- Vi que na pasta SVG tem uns pngs, png nao é svg -->
   <body>
     <header>
       <div class="max-content-default">
         <div class="header-img">
+          <!-- uma imagem nao é um H1, isso nao faz sentido -->
           <h1>
             <img src="assents/svg/LaNonna.svg" alt="Logo do site La Nonna" />
           </h1>
@@ -33,6 +37,7 @@
             </li>
           </ul>
         </nav>
+        <!-- acredito que o fieldset deveria envolver só o input, mas nao tenho certeza. tem q dar uma olhada na documentaçao para esse caso. -->
         <fieldset class="form">
           <form action="">
             <input type="search" placeholder="Encontre uma receita..." />
@@ -44,6 +49,7 @@
       </div>
     </header>
     <main>
+      <!-- Aqui se todo o conteudo tem o mesmo "max-content-default" tu poderia adicionar essa classe no main, ou uma div q englobe todo o conteudo dentro do main com essa classe, nao tem o por que repetir ela toda seçao -->
       <section class="max-content-default">
         <div class="content-introduction">
           <h2>Bolo de cenoura</h2>
@@ -52,6 +58,7 @@
           </div>
         </div>
       </section>
+      <!-- Aqui se todo o conteudo tem o mesmo "max-content-default" tu poderia adicionar essa classe no main, ou uma div q englobe todo o conteudo dentro do main com essa classe, nao tem o por que repetir ela toda seçao -->
       <section class="max-content-default">
         <div class="content-main">
           <h3>Ingredientes</h3>
@@ -92,6 +99,7 @@
           </ol>
         </div>
       </section>
+      <!-- Aqui se todo o conteudo tem o mesmo "max-content-default" tu poderia adicionar essa classe no main, ou uma div q englobe todo o conteudo dentro do main com essa classe, nao tem o por que repetir ela toda seçao -->
       <section class="max-content-default">
         <div class="content-main-final">
           <h3>Que tal conferir outras receitas de bolo na La Nonna?</h3>
